@@ -133,7 +133,8 @@ export default class HookedWeb3Provider extends Web3.providers.HttpProvider {
         // sign the transaction ourself and rewrite the payload.
         this.transaction_signer.signTransaction(tx_params, (err, raw_tx) => {
           if (err != null) {
-            return next(err);
+            // Password was not provided. Stop.
+            return false;
           }
 
           payload.method = 'eth_sendRawTransaction';
