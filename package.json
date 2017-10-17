@@ -1,8 +1,8 @@
 {
-  "name": "hooked-web3-provider-es6",
+  "name": "hooked-web3-provider",
   "version": "1.0.0",
   "description": "Updates over https://github.com/ConsenSys/hooked-web3-provider",
-  "main": "./lib/index.js",
+  "main": "./lib/hooked-web3-provider.js",
   "scripts": {
     "clean": "rimraf lib",
     "lint": "eslint src test",
