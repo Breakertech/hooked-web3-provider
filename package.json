@@ -1,6 +1,6 @@
 {
   "name": "hooked-web3-provider",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Updates over https://github.com/ConsenSys/hooked-web3-provider",
   "main": "./lib/hooked-web3-provider.js",
   "scripts": {
